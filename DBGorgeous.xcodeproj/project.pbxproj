@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		382019F1376760C5769B5D94 /* libPods-DBGorgeous.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5AA2A830304BEA997570A7 /* libPods-DBGorgeous.a */; };
+		AF21A56A1DF3E7EC000F14BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF21A5691DF3E7EC000F14BA /* main.m */; };
+		AF21A56D1DF3E7EC000F14BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF21A56C1DF3E7EC000F14BA /* AppDelegate.m */; };
+		AF21A5731DF3E7EC000F14BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF21A5711DF3E7EC000F14BA /* Main.storyboard */; };
+		AF21A5751DF3E7EC000F14BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF21A5741DF3E7EC000F14BA /* Assets.xcassets */; };
+		AF21A5781DF3E7ED000F14BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF21A5761DF3E7ED000F14BA /* LaunchScreen.storyboard */; };
+		AF3241161DF3F45C008D44B7 /* GorgeousCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3241151DF3F45C008D44B7 /* GorgeousCollectionViewController.m */; };
+		AF3AD7101E027EA10047C70E /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3AD70A1E027EA10047C70E /* SDBrowserImageView.m */; };
+		AF3AD7111E027EA10047C70E /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3AD70C1E027EA10047C70E /* SDPhotoBrowser.m */; };
+		AF3AD7121E027EA10047C70E /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3AD70F1E027EA10047C70E /* SDWaitingView.m */; };
+		AF41F15F1DF414210094CA5D /* GorgeousCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF41F15E1DF414210094CA5D /* GorgeousCollectionViewCell.m */; };
+		AFC94E8E1DF6B9E300D8807E /* Gorgeous.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC94E8D1DF6B9E300D8807E /* Gorgeous.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D400E193B3E3528FEC4D913 /* Pods-DBGorgeous.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBGorgeous.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBGorgeous/Pods-DBGorgeous.debug.xcconfig"; sourceTree = "<group>"; };
+		7E5AA2A830304BEA997570A7 /* libPods-DBGorgeous.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DBGorgeous.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF21A5651DF3E7EC000F14BA /* DBGorgeous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBGorgeous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF21A5691DF3E7EC000F14BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF21A56B1DF3E7EC000F14BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF21A56C1DF3E7EC000F14BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF21A5721DF3E7EC000F14BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF21A5741DF3E7EC000F14BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF21A5771DF3E7ED000F14BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF21A5791DF3E7ED000F14BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3241141DF3F45C008D44B7 /* GorgeousCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GorgeousCollectionViewController.h; sourceTree = "<group>"; };
+		AF3241151DF3F45C008D44B7 /* GorgeousCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GorgeousCollectionViewController.m; sourceTree = "<group>"; };
+		AF3AD7091E027EA10047C70E /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		AF3AD70A1E027EA10047C70E /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		AF3AD70B1E027EA10047C70E /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		AF3AD70C1E027EA10047C70E /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		AF3AD70D1E027EA10047C70E /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		AF3AD70E1E027EA10047C70E /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		AF3AD70F1E027EA10047C70E /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		AF41F15D1DF414210094CA5D /* GorgeousCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GorgeousCollectionViewCell.h; sourceTree = "<group>"; };
+		AF41F15E1DF414210094CA5D /* GorgeousCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GorgeousCollectionViewCell.m; sourceTree = "<group>"; };
+		AFC94E8C1DF6B9E300D8807E /* Gorgeous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gorgeous.h; sourceTree = "<group>"; };
+		AFC94E8D1DF6B9E300D8807E /* Gorgeous.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gorgeous.m; sourceTree = "<group>"; };
+		F2AB83E02CE24A5379862608 /* Pods-DBGorgeous.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBGorgeous.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBGorgeous/Pods-DBGorgeous.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF21A5621DF3E7EC000F14BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382019F1376760C5769B5D94 /* libPods-DBGorgeous.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AF15C0F14DF423018857489 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D400E193B3E3528FEC4D913 /* Pods-DBGorgeous.debug.xcconfig */,
+				F2AB83E02CE24A5379862608 /* Pods-DBGorgeous.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E7559B27FB868681FE68594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF3AD7081E027EA10047C70E /* SDPhotoBrowser */,
+				7E5AA2A830304BEA997570A7 /* libPods-DBGorgeous.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF21A55C1DF3E7EC000F14BA = {
+			isa = PBXGroup;
+			children = (
+				AF21A5671DF3E7EC000F14BA /* DBGorgeous */,
+				AF21A5661DF3E7EC000F14BA /* Products */,
+				3AF15C0F14DF423018857489 /* Pods */,
+				3E7559B27FB868681FE68594 /* Frameworks */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+		AF21A5661DF3E7EC000F14BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF21A5651DF3E7EC000F14BA /* DBGorgeous.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF21A5671DF3E7EC000F14BA /* DBGorgeous */ = {
+			isa = PBXGroup;
+			children = (
+				AF21A56B1DF3E7EC000F14BA /* AppDelegate.h */,
+				AF21A56C1DF3E7EC000F14BA /* AppDelegate.m */,
+				AFAF649D1DF3EF7100BB78B5 /* Gorgeous */,
+				AF21A5681DF3E7EC000F14BA /* Supporting Files */,
+			);
+			path = DBGorgeous;
+			sourceTree = "<group>";
+		};
+		AF21A5681DF3E7EC000F14BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF21A5711DF3E7EC000F14BA /* Main.storyboard */,
+				AF21A5741DF3E7EC000F14BA /* Assets.xcassets */,
+				AF21A5761DF3E7ED000F14BA /* LaunchScreen.storyboard */,
+				AF21A5791DF3E7ED000F14BA /* Info.plist */,
+				AF21A5691DF3E7EC000F14BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF3AD7081E027EA10047C70E /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AF3AD7091E027EA10047C70E /* SDBrowserImageView.h */,
+				AF3AD70A1E027EA10047C70E /* SDBrowserImageView.m */,
+				AF3AD70B1E027EA10047C70E /* SDPhotoBrowser.h */,
+				AF3AD70C1E027EA10047C70E /* SDPhotoBrowser.m */,
+				AF3AD70D1E027EA10047C70E /* SDPhotoBrowserConfig.h */,
+				AF3AD70E1E027EA10047C70E /* SDWaitingView.h */,
+				AF3AD70F1E027EA10047C70E /* SDWaitingView.m */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		AF41F15B1DF413F30094CA5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF3241141DF3F45C008D44B7 /* GorgeousCollectionViewController.h */,
+				AF3241151DF3F45C008D44B7 /* GorgeousCollectionViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AF41F15C1DF413FB0094CA5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF41F15D1DF414210094CA5D /* GorgeousCollectionViewCell.h */,
+				AF41F15E1DF414210094CA5D /* GorgeousCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AFAF649D1DF3EF7100BB78B5 /* Gorgeous */ = {
+			isa = PBXGroup;
+			children = (
+				AFC94E8B1DF6B9C400D8807E /* Model */,
+				AF41F15B1DF413F30094CA5D /* Controller */,
+				AF41F15C1DF413FB0094CA5D /* View */,
+			);
+			name = Gorgeous;
+			sourceTree = "<group>";
+		};
+		AFC94E8B1DF6B9C400D8807E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFC94E8C1DF6B9E300D8807E /* Gorgeous.h */,
+				AFC94E8D1DF6B9E300D8807E /* Gorgeous.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF21A5641DF3E7EC000F14BA /* DBGorgeous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF21A57C1DF3E7ED000F14BA /* Build configuration list for PBXNativeTarget "DBGorgeous" */;
+			buildPhases = (
+				BCE75077787424A8B1A44270 /* [CP] Check Pods Manifest.lock */,
+				AF21A5611DF3E7EC000F14BA /* Sources */,
+				AF21A5621DF3E7EC000F14BA /* Frameworks */,
+				AF21A5631DF3E7EC000F14BA /* Resources */,
+				FECD7F52AC87BE77FA51433A /* [CP] Embed Pods Frameworks */,
+				48E3DFFAF3B83BEA03C014B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBGorgeous;
+			productName = DBGorgeous;
+			productReference = AF21A5651DF3E7EC000F14BA /* DBGorgeous.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF21A55D1DF3E7EC000F14BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "海啸";
+				TargetAttributes = {
+					AF21A5641DF3E7EC000F14BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8CJPZVXX3U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF21A5601DF3E7EC000F14BA /* Build configuration list for PBXProject "DBGorgeous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF21A55C1DF3E7EC000F14BA;
+			productRefGroup = AF21A5661DF3E7EC000F14BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF21A5641DF3E7EC000F14BA /* DBGorgeous */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF21A5631DF3E7EC000F14BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF21A5781DF3E7ED000F14BA /* LaunchScreen.storyboard in Resources */,
+				AF21A5751DF3E7EC000F14BA /* Assets.xcassets in Resources */,
+				AF21A5731DF3E7EC000F14BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E3DFFAF3B83BEA03C014B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBGorgeous/Pods-DBGorgeous-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE75077787424A8B1A44270 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FECD7F52AC87BE77FA51433A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBGorgeous/Pods-DBGorgeous-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF21A5611DF3E7EC000F14BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3AD7101E027EA10047C70E /* SDBrowserImageView.m in Sources */,
+				AF21A56D1DF3E7EC000F14BA /* AppDelegate.m in Sources */,
+				AF3AD7111E027EA10047C70E /* SDPhotoBrowser.m in Sources */,
+				AF21A56A1DF3E7EC000F14BA /* main.m in Sources */,
+				AF41F15F1DF414210094CA5D /* GorgeousCollectionViewCell.m in Sources */,
+				AFC94E8E1DF6B9E300D8807E /* Gorgeous.m in Sources */,
+				AF3241161DF3F45C008D44B7 /* GorgeousCollectionViewController.m in Sources */,
+				AF3AD7121E027EA10047C70E /* SDWaitingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF21A5711DF3E7EC000F14BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF21A5721DF3E7EC000F14BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF21A5761DF3E7ED000F14BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF21A5771DF3E7ED000F14BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF21A57A1DF3E7ED000F14BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF21A57B1DF3E7ED000F14BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF21A57D1DF3E7ED000F14BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D400E193B3E3528FEC4D913 /* Pods-DBGorgeous.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8CJPZVXX3U;
+				INFOPLIST_FILE = DBGorgeous/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Haixiao.DBGorgeous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF21A57E1DF3E7ED000F14BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AB83E02CE24A5379862608 /* Pods-DBGorgeous.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8CJPZVXX3U;
+				INFOPLIST_FILE = DBGorgeous/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Haixiao.DBGorgeous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF21A5601DF3E7EC000F14BA /* Build configuration list for PBXProject "DBGorgeous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF21A57A1DF3E7ED000F14BA /* Debug */,
+				AF21A57B1DF3E7ED000F14BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF21A57C1DF3E7ED000F14BA /* Build configuration list for PBXNativeTarget "DBGorgeous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF21A57D1DF3E7ED000F14BA /* Debug */,
+				AF21A57E1DF3E7ED000F14BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF21A55D1DF3E7EC000F14BA /* Project object */;
+}
