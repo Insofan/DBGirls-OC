@@ -8,16 +8,7 @@
 
 #import <Foundation/Foundation.h>
 @class GorgeousCategory;
-//typedef NS_ENUM(NSInteger, Category) {
-//    All     = 0,
-//    DaXiong = 2,
-//    QiaoTun = 6,
-//    HeiSi   = 7,
-//    MeiTui  = 3,
-//    YanZhi  = 4,
-//    ZaHui   = 5,
-//    
-//};
+
 @interface Gorgeous : NSObject
 @property (copy, nonatomic) NSString *title;
 @property (copy, nonatomic) NSString *src;

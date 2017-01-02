@@ -36,8 +36,7 @@ static NSString  *reuseIdentifier = @"Cell";
 - (NSMutableArray *)gorgeousUrlsArray {
     
     if (!_gorgeousUrlsArray) {
-        _gorgeousUrlsArray = [[NSMutableArray alloc] init];
-    }
+        _gorgeousUrlsArray = [[NSMutableArray alloc] init]; }
 
     return _gorgeousUrlsArray;
 }
@@ -72,8 +71,9 @@ static NSString  *reuseIdentifier = @"Cell";
 
 - (void)typeWith:(UIButton *)sender {
     //当时写了个dispatch_sync(dispatch_get_main_queue()死锁！！！
-    NSInteger tag = sender.tag;
+    NSInteger tag        = sender.tag;
     NSArray *buttonArray = @[@"所有", @"大胸妹",@"美腿控",@"有颜值",@"黑丝袜",@"小翘臀",@"大杂烩"];
+    
     self.navigationItem.title = buttonArray[tag];
     /*
      All     = 0,
@@ -196,8 +196,8 @@ static NSString  *reuseIdentifier = @"Cell";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    
-    GorgeousCollectionViewCell *cell=[collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+
+    GorgeousCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
     [cell setCellImageWith:self.gorgeousUrlsArray[indexPath.row]];
     cell.backgroundColor = [UIColor grayColor];
@@ -209,12 +209,14 @@ static NSString  *reuseIdentifier = @"Cell";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    SDPhotoBrowser *photoBrowser = [[SDPhotoBrowser alloc] init];
-    photoBrowser.delegate = self;
-    photoBrowser.currentImageIndex = indexPath.item;
-    photoBrowser.imageCount = self.gorgeousUrlsArray.count;
+    SDPhotoBrowser *photoBrowser           = [[SDPhotoBrowser alloc] init];
+    
+    photoBrowser.delegate                  = self;
+    photoBrowser.currentImageIndex         = indexPath.item;
+    photoBrowser.imageCount                = self.gorgeousUrlsArray.count;
     photoBrowser.sourceImagesContainerView = self.collectionView;
-    photoBrowser.titleLabel.text = self.gorgeousUrlsArray[indexPath.row].title;
+    photoBrowser.titleLabel.text           = self.gorgeousUrlsArray[indexPath.row].title;
+    
     [photoBrowser show];
     
 }
@@ -246,7 +248,7 @@ static NSString  *reuseIdentifier = @"Cell";
     if (_manager == nil)
     {
         NSString * randomUserAgent = ({
-            
+           //设置代理
             NSArray * userAgents = @[@"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
                                      @"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36",
                                      @"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0",
